@@ -1,14 +1,5 @@
 # 🚀 Pipelines
 
-> Коллекция **CI/CD пайплайнов на GitHub Actions** для разных языков программирования.
-> Учебный проект: примеры автоматизации сборки, тестирования, линтинга и Docker-сборки.
-
-![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![Languages](https://img.shields.io/badge/languages-7-success)
-![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
-
----
-
 ## 📚 Список пайплайнов
 
 | # | Язык / Стек | Что делает | Ссылка |
@@ -22,22 +13,7 @@
 | 7 | ☕ **Java** | Maven, JUnit 5, multi-stage Docker | [→](https://github.com/anitouchq/hello-java) |
 | 8 | 🦀 **Rust (CI #1)** | clippy, fmt, cargo test, multi-stage Docker | [→](https://github.com/anitouchq/my-rust-app) |
 
----
 
-## 📊 Статусы пайплайнов
-
-| Пайплайн | Статус |
-|----------|--------|
-| 📦 Node.js | ![NodeJS](https://github.com/anitouchq/pipelines-nodejs/actions/workflows/ci.yml/badge.svg) |
-| 🐍 Python | ![Python](https://github.com/anitouchq/pipelines-python/actions/workflows/ci.yml/badge.svg) |
-| 🐹 Go | ![Go](https://github.com/anitouchq/pipelines-go/actions/workflows/ci.yml/badge.svg) |
-| ⚙️ C++ | ![C++](https://github.com/anitouchq/pipelines-cpp/actions/workflows/ci.yml/badge.svg) |
-| 🦀 Rust (утилита) | ![Rust](https://github.com/anitouchq/pipelines-rust/actions/workflows/ci.yml/badge.svg) |
-| 🐘 PHP | ![PHP](https://github.com/anitouchq/pipelines-php/actions/workflows/ci.yml/badge.svg) |
-| ☕ Java | ![Java](https://github.com/anitouchq/hello-java/actions/workflows/ci.yml/badge.svg) |
-| 🦀 Rust (CI #1) | ![Rust](https://github.com/anitouchq/my-rust-app/actions/workflows/rust-ci.yml/badge.svg) |
-
----
 
 ## ⚙️ Что демонстрирует каждый пайплайн
 
@@ -52,22 +28,4 @@
 | Java | Maven | JUnit 5 | ✅ |
 | Rust (CI #1) | clippy + fmt | cargo test | ✅ |
 
----
 
-## 🏗️ Стек
-
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-
----
-
-## 📂 Структура
-
-Каждый пайплайн — **отдельный публичный репозиторий** со своим `.github/workflows/`:
